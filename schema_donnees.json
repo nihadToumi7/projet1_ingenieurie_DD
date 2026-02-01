@@ -1,0 +1,58 @@
+{
+    "properties": {
+        "departement": {
+            "title": "Departement",
+            "type": "string"
+        },
+        "conformite_eau_moyenne": {
+            "default": 0.0,
+            "title": "Conformite Eau Moyenne",
+            "type": "number"
+        },
+        "nombre_deces": {
+            "default": 0,
+            "title": "Nombre Deces",
+            "type": "integer"
+        },
+        "population_totale": {
+            "default": 0,
+            "title": "Population Totale",
+            "type": "integer"
+        },
+        "nb_cancers": {
+            "default": 0,
+            "title": "Nb Cancers",
+            "type": "integer"
+        },
+        "nb_insuffisance_renale": {
+            "default": 0,
+            "title": "Nb Insuffisance Renale",
+            "type": "integer"
+        },
+        "nb_foie_pancreas": {
+            "default": 0,
+            "title": "Nb Foie Pancreas",
+            "type": "integer"
+        },
+        "pourcentage_cancer": {
+            "default": 0.0,
+            "title": "Pourcentage Cancer",
+            "type": "number"
+        },
+        "pourcentage_insuffisance_renale": {
+            "default": 0.0,
+            "title": "Pourcentage Insuffisance Renale",
+            "type": "number"
+        },
+        "pourcentage_foie_pancreas": {
+            "default": 0.0,
+            "title": "Pourcentage Foie Pancreas",
+            "type": "number"
+        }
+    },
+    "required": [
+        "departement"
+    ],
+    "title": "DeptSummary",
+    "type": "object"
+}
